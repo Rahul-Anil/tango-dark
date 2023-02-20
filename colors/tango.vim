@@ -1,8 +1,3 @@
-"
-" Tango-dark theme
-"
-" author: Rahul Anil <rahulanil101@gmail.com>
-
 set background=dark
 
 hi clear
@@ -13,8 +8,8 @@ endif
 let colors_name = "tango"
 
 " Default Colors
-hi Normal       guifg=#eeeeec guibg=#000000
-hi NonText      guifg=#555753 guibg=#000000 gui=none
+hi Normal       guifg=#eeeeec guibg=#191818
+hi NonText      guifg=#555753 guibg=#191818 gui=none
 hi NonText      ctermfg=darkgray
 hi Cursor       guibg=#d3d7cf
 hi lCursor      guibg=#d3d7cf
@@ -31,8 +26,8 @@ hi StatusLine   ctermfg=white ctermbg=green cterm=bold
 hi StatusLineNC guifg=#d3d7df guibg=#4e9a06
 hi StatusLineNC ctermfg=lightgray ctermbg=darkgreen
 hi VertSplit    guifg=#eeeeec guibg=#eeeeec
-hi Folded       guifg=#eeeeec guibg=#5f875f
-hi Folded       ctermfg=white ctermbg=darkseagreen4
+hi Folded       guifg=#eeeeec guibg=#75507b
+hi Folded       ctermfg=white ctermbg=magenta
 hi Visual       guifg=#d3d7cf guibg=#4e9a06
 hi Visual       ctermbg=white ctermfg=lightgreen cterm=reverse
 
@@ -57,8 +52,8 @@ hi Comment      guifg=#06989a gui=italic
 hi Comment      ctermfg=cyan cterm=none
 hi Type         guifg=#d3d7cf gui=bold
 hi Type         ctermfg=gray cterm=bold
-hi Special      guifg=#5f875f
-hi Special      ctermfg=darkseagreen4 cterm=none
+hi Special      guifg=#75507b
+hi Special      ctermfg=magenta cterm=none
 hi Error        guifg=#eeeeec guibg=#ef2929
 hi Error        ctermfg=white ctermbg=red
 
@@ -72,5 +67,4 @@ hi DiffDelete   ctermfg=gray ctermbg=none cterm=none
 hi DiffText     guifg=fg guibg=#c4a000 gui=none
 hi DiffText     ctermfg=gray ctermbg=yellow cterm=none
 
-hi  x065_DarkSeaGreen4      ctermfg=65   guifg=#5f875f  "rgb=95,135,95
 
