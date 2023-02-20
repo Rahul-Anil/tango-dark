@@ -31,8 +31,8 @@ hi StatusLine   ctermfg=white ctermbg=green cterm=bold
 hi StatusLineNC guifg=#d3d7df guibg=#4e9a06
 hi StatusLineNC ctermfg=lightgray ctermbg=darkgreen
 hi VertSplit    guifg=#eeeeec guibg=#eeeeec
-hi Folded       guifg=#eeeeec guibg=#1c2119
-hi Folded       ctermfg=white ctermbg=mossgreen
+hi Folded       guifg=#eeeeec guibg=#5f875f
+hi Folded       ctermfg=white ctermbg=darkseagreen4
 hi Visual       guifg=#d3d7cf guibg=#4e9a06
 hi Visual       ctermbg=white ctermfg=lightgreen cterm=reverse
 
@@ -57,8 +57,8 @@ hi Comment      guifg=#06989a gui=italic
 hi Comment      ctermfg=cyan cterm=none
 hi Type         guifg=#d3d7cf gui=bold
 hi Type         ctermfg=gray cterm=bold
-hi Special      guifg=#1c2119
-hi Special      ctermfg=mossgreen cterm=none
+hi Special      guifg=#5f875f
+hi Special      ctermfg=darkseagreen4 cterm=none
 hi Error        guifg=#eeeeec guibg=#ef2929
 hi Error        ctermfg=white ctermbg=red
 
@@ -71,4 +71,6 @@ hi DiffDelete   guibg=bg
 hi DiffDelete   ctermfg=gray ctermbg=none cterm=none
 hi DiffText     guifg=fg guibg=#c4a000 gui=none
 hi DiffText     ctermfg=gray ctermbg=yellow cterm=none
+
+hi  x065_DarkSeaGreen4      ctermfg=65   guifg=#5f875f  "rgb=95,135,95
 
